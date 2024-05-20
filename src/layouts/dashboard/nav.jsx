@@ -53,9 +53,7 @@ export default function Nav({ openNav, onCloseNav }) {
         },
       }}
     >
-      <Typography variant="h4" sx={{ mt: 3, ml: 4, mb : 4 }} >Apica-Task</Typography>
-
-
+      <Typography variant="h4" sx={{ mt: 3, ml: 4, mb : 4 }}>Apica-Task</Typography>
       {renderMenu}
 
       <Box sx={{ flexGrow: 1 }} />
